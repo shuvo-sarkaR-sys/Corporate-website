@@ -57,8 +57,9 @@ const Navbar = ({darkMode, handleClick}) => {
 
 </span></li>
 
-<div className='hidden rounded-md p-6  bg-white dark:bg-[#030712] shadow-sm gap-7 absolute group-hover:flex w-[550px] h-[420px] '>
- <div>
+<div className='hidden group-hover:flex   rounded-md p-6  bg-white dark:bg-[#030712] shadow-sm gap-7 absolute  w-[550px] h-[420px] '>
+ 
+ <div >
   <Link to="wordpress"><div className=' p-2 hover:bg-slate-100 dark:hover:bg-gray-900'>
     <h1>WordPress Solutions</h1>
     <p className='text-gray-500 text-sm'>Custom Themes, plugins, and WordPress site development.</p>
@@ -95,6 +96,7 @@ const Navbar = ({darkMode, handleClick}) => {
  </div>
 </div>
 </div>
+ 
 
 
 
