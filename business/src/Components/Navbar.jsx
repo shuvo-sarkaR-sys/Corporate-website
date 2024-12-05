@@ -57,7 +57,7 @@ const Navbar = ({darkMode, handleClick}) => {
 
 </span></li>
 
-<div className='hidden group-hover:flex   rounded-md p-6  bg-white dark:bg-[#030712] shadow-sm gap-7 absolute  w-[550px] h-[420px] '>
+<div className='hidden group-hover:flex   rounded-md p-6  bg-white dark:bg-[#030712] shadow-sm gap-7 absolute  w-[550px]  '>
  
  <div >
   <Link to="wordpress"><div className=' p-2 hover:bg-slate-100 dark:hover:bg-gray-900'>
@@ -74,10 +74,7 @@ const Navbar = ({darkMode, handleClick}) => {
     <h1>MERN Stack Development</h1>
     <p className='text-gray-500 text-sm'>Full-stack development using MongoDB, Express, React, and...</p>
   </div></Link>
- <Link to='static'> <div className=' p-2 hover:bg-slate-100 dark:hover:bg-gray-900'>
-    <h1>Static HTML & CSS Websites</h1>
-    <p className='text-gray-500 text-sm'>Develop lightweight, responsive static websites with HTML and...</p>
-  </div></Link>
+ 
  </div>
  <div>
  <Link to='next'><div className=' p-2 hover:bg-slate-100 dark:hover:bg-gray-900'>
@@ -88,7 +85,7 @@ const Navbar = ({darkMode, handleClick}) => {
     <h1>Fullstack Next.js Applications</h1>
     <p className='text-gray-500 text-sm'>End-to-end Next.js application development.</p>
   </div></Link>
- <Link to='fontend'> <div className=' p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
+ <Link to='frontend'> <div className=' p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>Front-end</h1>
     <p className='text-gray-500 text-sm'>Modern Frontend development using HTML, CSS, JavaScrip.</p>
   </div></Link>
@@ -107,46 +104,46 @@ const Navbar = ({darkMode, handleClick}) => {
 
 </span></li>
 
-<div className='hidden rounded-md p-8  bg-white dark:bg-[#030712] shadow-sm gap-7 absolute  left-[-160px]  group-hover:flex w-[600px] h-[420px]'>
+<div className='hidden rounded-md p-4  bg-white dark:bg-[#030712] shadow-sm gap-7 absolute  left-[-160px]  group-hover:flex w-[600px]  '>
  <div>
-  <div>
+  <Link to="/malware"><div className=' p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>WordPress Malware Removal</h1>
     <p className='text-gray-500 text-sm'>Fix hacked sites with malware or redireact issues.</p>
-  </div>
-  <div className='my-8'>
+  </div></Link>
+  <Link to="/security"><div className='my-6  p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>
       WordPress Security
     </h1>
     <p className='text-gray-500 text-sm'>Enhance WordPress security to prevent attacks.</p>
-  </div>
-  <div className='mb-8'>
+  </div></Link>
+ <Link to="/blacklist"><div className='mb-6  p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>Blacklist Removal</h1>
     <p className='text-gray-500 text-sm'>Remove your website from blacklists and restore its reputation.</p>
-  </div>
-  <div>
+  </div></Link> 
+ <Link to="/website migration"> <div className=' p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>Website Migration</h1>
     <p className='text-gray-500 text-sm'>Smoothly migrate your website to a new host or platform without..</p>
-  </div>
+  </div></Link>
  </div>
  <div>
-  <div>
+  <Link to='/speed'><div className=' p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>WordPress Speed Optimization</h1>
     <p className='text-gray-500 text-sm'>
       Speed up your Wordpress website for optimal performance.
     </p>
-  </div>
-  <div className='my-8'>
+  </div></Link>
+  <Link to='ongoing'><div className='my-6  p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>Ongoing WordPress Maintenance</h1>
     <p className='text-gray-500 text-sm'>Continuous backups, updates, and monitoring.</p>
-  </div>
-  <div className='mb-8'>
+  </div></Link>
+  <Link to='/email deliverability'><div className='mb-6  p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>Email Deliverability Issues</h1>
     <p className='text-gray-500 text-sm'>Resolve issues with email deliverability, spam filters, and..</p>
-  </div>
-  <div>
+  </div></Link>
+  <Link to='ssl'><div className=' p-2 hover:bg-slate-100 rounded-md dark:hover:bg-gray-900'>
     <h1>SSL Installation</h1>
     <p className='text-gray-500 text-sm'>Secure your website with SSL installation, ensuring safe data...</p>
-  </div>
+  </div></Link>
   
  </div>
 </div>

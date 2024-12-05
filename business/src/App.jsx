@@ -8,9 +8,16 @@ import Footer from './Components/Footer';
   import Mern from './Pages/Mern'
  import Fullstack from './Pages/Fullstack';
  import Frontend from './Pages/Frontend'
- import Static from './Pages/Static'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './Pages/Home';
+import Malware from './Pages/Malware'
+import Speed from './Pages/Speed'
+import Security from './Pages/Security'
+import EmailDeliverability from './Pages/EmailDeliverability';
+import Blacklist from './Pages/Blacklist'
+ import WebsiteMi from './Pages/WebsiteMi'
+import SSL from './Pages/SSL'
+import Ongoing from './Pages/Ongoing'
 function App() {
   const [darkMode, setDark] = useState(false);
   const handleClick = ()=>{
@@ -39,8 +46,16 @@ function App() {
     <Route path="fullstack" element={<Fullstack/>}/>
     <Route path="mern" element={<Mern/>} />
     <Route path='frontend' element={<Frontend/>} />
-    <Route path="static" element={<Static/>}/>
-     
+
+    {/* maintenance nav route */}
+      <Route path='malware' element={<Malware/>} />
+      <Route path='speed' element={<Speed/>} />
+      <Route path='security' element={<Security/>} />
+      <Route path='ongoing' element={<Ongoing/>} />
+      <Route path='blacklist' element={<Blacklist/>} />
+      <Route path="email deliverability" element={<EmailDeliverability/>}/>
+      <Route path='website migration' element={<WebsiteMi/>}/>
+      <Route path='ssl' element={<SSL/>}/>
    </Routes>
    <Footer/>
    </BrowserRouter>
