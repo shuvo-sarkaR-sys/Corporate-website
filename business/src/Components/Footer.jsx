@@ -29,7 +29,7 @@ const Footer = () => {
     setText3(!text3)
   }
   return (
-    <div className='primary-color flex-wrap gap-5  mt-10 flex px-10 md:px-36 py-10 text-white'>
+    <div className='primary-color flex-wrap gap-5  mt-10 flex px-10 lg:px-36 py-10 text-white'>
     <div className='md:w-1/4 w-full'>
         <img src={p1} alt="" />
         <p className='mt-2'>Achieving perfection

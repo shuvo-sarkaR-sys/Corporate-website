@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import Navbar from './Components/Navbar'
- 
-import Footer from './Components/Footer';
+ import Footer from './Components/Footer';
  import Wordpress from './Pages/Wordpress'
  import Shopify from './Pages/Shopify';
  import Next from './Pages/Next'
@@ -18,6 +17,11 @@ import Blacklist from './Pages/Blacklist'
  import WebsiteMi from './Pages/WebsiteMi'
 import SSL from './Pages/SSL'
 import Ongoing from './Pages/Ongoing'
+import Error4 from './Pages/Error4';
+import Error3 from './Pages/Error3'
+import Error5 from './Pages/Error5'
+import WhiteScreen from './Pages/WhiteScreen';
+import Mixed from './Pages/Mixed'
 function App() {
   const [darkMode, setDark] = useState(false);
   const handleClick = ()=>{
@@ -33,7 +37,7 @@ function App() {
       }
   },[darkMode])
   return (
-    <div className='dark:bg-[#030712]'>
+    <div className='dark:bg-[#030712] font-sans'>
       <BrowserRouter>
    <Navbar handleClick={handleClick} darkMode={darkMode}/>
     
@@ -56,6 +60,13 @@ function App() {
       <Route path="email deliverability" element={<EmailDeliverability/>}/>
       <Route path='website migration' element={<WebsiteMi/>}/>
       <Route path='ssl' element={<SSL/>}/>
+
+      <Route path='error4' element={<Error4/>}  />
+      <Route path='error5' element={<Error5/>}  />
+      <Route path='error3' element={<Error3/>}  />
+      <Route path='white screen' element={<WhiteScreen/>}  />
+      <Route path='mixed' element={<Mixed/>}  />
+
    </Routes>
    <Footer/>
    </BrowserRouter>

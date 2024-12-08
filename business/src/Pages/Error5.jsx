@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Mixed = () => {
+const Error5 = () => {
   return (
     <div className='dark:text-white lg:mx-72 mx-10'>
-    <h1 className='text-center text-4xl font-bold my-5'>Fix Mixed Content Errors</h1>
-    <p className='text-centen text-xl text-gray-500 mb-5'>Are mixed content errors affecting your website's security and performance? Let us resolve these issues to ensure a fully secure and compliant website.</p>
+    <h1 className='text-center text-4xl font-bold my-5'>Fix 500 Errors</h1>
+    <p className='text-center text-xl text-gray-500 mb-5'>Is your website showing 500 errors? Our professional service will quickly diagnose and fix the issues, ensuring your website remains reliable and operational.</p>
     <div className='primary-color p-8 flex items-center justify-between rounded-xl'>
       <div>
-        <h1 className='text-4xl font-bold text-white'>Mixed Content Error Fix</h1>
+        <h1 className='text-4xl font-bold text-white'>500 Error Fix</h1>
         <p className='text-white'>Only $30</p>
       </div>
       <button className='bg-white dark:bg-slate-800 px-7 h-12 text-lg rounded-xl'>Purchase Now</button>
@@ -18,26 +18,26 @@ const Mixed = () => {
         <div className='flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-700">
 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 </svg>
-<p>Identification of mixed content issues on your website.</p>
+<p>Diagnosis of server issues causing 500 errors.</p>
 </div>
 <div className='flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-700">
 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 </svg>
-<p>Correction of insecure content links (HTTP to HTTPS).</p>
+<p>Fixes to server configurations and code issues.</p>
 </div>
 <div className='flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-700">
 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
 </svg>
-<p>Verification of website security and HTTPS status.</p>
+<p>Post-fix monitoring to ensure stability.</p>
 </div>
       </div>
       <div className='bg-slate-300 p-6 w-1/2 rounded-xl dark:bg-slate-800'>
-        <h1 className='text-center text-xl font-bold'>What's Included</h1>
-       <p className=' text-center mt-6'>Our experts will ensure that your website is fully secured with HTTPS, eliminating mixed content errors that could compromise your site’s performance and security.</p>
+        <h1 className='text-center text-xl font-bold'>Why Choose Us?</h1>
+       <p className=' text-center mt-6'>We specialize in quickly diagnosing and resolving 500 server errors, ensuring your site remains online and fully functional.</p>
       </div>
     </div>
   </div>
   )
 }
 
-export default Mixed
+export default Error5

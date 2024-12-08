@@ -19,7 +19,7 @@ const WebsiteMi = () => {
 
 
   return (
-    <div>
+    <div className='dark:text-white'>
       <div className="flex mt-10 j dark:text-white md:mx-20 mx-10 flex-wrap lg:mx-40">
         <div className="lg:w-[60%] w-full">
           <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-start">Seamless Website Migration – Zero Downtime, 100% Reliability!</h1>
@@ -46,16 +46,16 @@ const WebsiteMi = () => {
       <div>
         <div>
           <h1 className='text-5xl text-center font-bold mt-10'>Website Migration Services</h1>
-          <p className='text-xl text-gray-500 text-center mt-5'>Transition your website to a new platform or hosting provider with minimal downtime and zero data loss. <br /> Our expert team handles the entire process for a smooth migration.</p>
+          <p className='text-xl text-gray-500 text-center lg:mx-40 mx-10 mt-5'>Transition your website to a new platform or hosting provider with minimal downtime and zero data loss. Our expert team handles the entire process for a smooth migration.</p>
         
            <div className='flex flex-wrap mt-14 justify-between  md:mx-20 sm:mx-14 mx-10 lg:mx-40'>
             <div>
               <h1 className='text-3xl font-bold'>Full-Service website Migration</h1>
               <p className='text-xl text-gray-700 mt-3'>Starting at just <del>${deleteValue}</del> ${amount}.00</p>
               <div className='flex my-4 gap-5 items-center'>
-                <button className='p-0 px-4 pb-1 rounded-md  text-3xl bg-slate-200' onClick={decreaseValue}>-</button>
+                <button className='p-0 px-4 pb-1 rounded-md  text-3xl bg-slate-200 dark:bg-slate-800' onClick={decreaseValue}>-</button>
                 <p className='text-3xl'>{value}</p>
-                <button className='p-0 px-4 pb-1 rounded-md text-3xl bg-slate-200' onClick={increaseValue}>+</button>
+                <button className='p-0 px-4 pb-1 rounded-md text-3xl bg-slate-200 dark:bg-slate-800' onClick={increaseValue}>+</button>
               </div>
             </div>
             <div>

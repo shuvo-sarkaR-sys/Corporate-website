@@ -21,6 +21,29 @@ const Security = () => {
   return (
     <div>
        <div className='dark:text-white'>
+       <div className="flex mt-10 j dark:text-white md:mx-20 mx-10 flex-wrap lg:mx-40">
+        <div className="lg:w-[60%] w-full">
+          <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-start">Your Website’s Security is Non-Negotiable!</h1>
+          <p className="text-xl text-gray-500 dark:text-gray-400 my-10">Hackers Are Always Watching – Are You Prepared?</p> 
+          <p>A single security breach can cost your business thousands. Protect your WordPress site with our advanced security services – 24/7 monitoring, threat prevention, and guaranteed peace of mind.</p>
+          <div className="gap-5 flex mt-5 text-white">
+            <button className="p-2 rounded-md primary-color font-semibold">Remove My Website Now</button>
+            <button className="p-2 rounded-md primary-color font-semibold">Book a call</button>
+          </div>
+        </div>
+        <div className="lg:w-1/3 lg:pt-28 pt-10 pl-20 lg:pl-32 w-full h-full">
+          <iframe
+            width="400"
+            height="225"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+
+        </div>
+      </div>
       <h1 className='lg:text-5xl text-center text-3xl mt-14 mb-5 font-bold lg:font-extrabold'>Comprehensive WordPress Security</h1>
       <p className='text-center mx-20 text-xl mb-10 text-gray-500'>Fortify your WordPress site with our advanced security services. <br />Protect your site from malicious attacks, unauthorized access, and potential vulnerabilities.
 

@@ -45,7 +45,7 @@ const [show, setShow] = useState(false)
           />
         ))}
       </div>
- <h1 className='text-center font-bold text-3xl md:text-4xl dark:text-white'>Our Case Studies</h1>
+ <h1 className='text-center font-bold text-3xl md:text-4xl dark:text-white' id='casestudies'>Our Case Studies</h1>
  <p className='text-center text-xl dark:text-white my-5'>Learn more about how we helped businesses achive their goals</p>
 {!show ? (<div className='dark:bg-[#111827]   dark:text-white rounded-md shadow-lg flex flex-wrap p-5 md:p-10 md:mx-32 mx-8 lg:mx-40'>
   <div className='relative md:pr-10 lg:w-1/2 w-full md:w-1/2'>
