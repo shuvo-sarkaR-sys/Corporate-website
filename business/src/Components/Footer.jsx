@@ -63,21 +63,21 @@ const Footer = () => {
 
        </div>
         {!text ?(<></>): (<div>
-          <div className='flex items-center text-xs gap-2'>
+          <Link to='wordpress'><div className='flex items-center text-xs gap-2'>
             <img className='h-4 mt-1 w-4' src={word} alt="" />
             <p >WordPress Solutions</p>
-          </div>
-          <div className='flex mt-1 items-center text-xs gap-2'>
+          </div></Link>
+          <Link to='next'><div className='flex mt-1 items-center text-xs gap-2'>
             <img className='h-4 w-4' src={r1} alt="" />
             <p>Headless WordPress & Next.js</p>
-          </div>
-          <div className='flex mt-1 items-center text-xs gap-2'>
+          </div></Link>
+          <Link to='shopify'><div className='flex mt-1 items-center text-xs gap-2'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 text-blue-600">
   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
 </svg>
 
             <p>Shopify Development</p>
-          </div>
+          </div></Link>
           <div className='flex mt-1 items-center text-xs gap-2'>
             <p className='border-2 px-1 rounded-full'>Js</p>
             <p>Fullstack Next.js Applications</p>

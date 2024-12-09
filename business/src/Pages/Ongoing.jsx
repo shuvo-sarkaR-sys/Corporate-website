@@ -46,7 +46,7 @@ const [value, setValue] = useState(1)
         <h1 className=' text-center lg:text-4xl font-bold  text-2xl'>Ongoing WordPress Security Maintenance</h1>
         <p className='text-center md:mx-32 lg:mx-40 mt-5'>Secure your WordPress site with our comprehensive maintenance services. Our team ensures your site is protected, updated, and performing at its best.</p>
 
-        <div className='  flex dark:bg-zinc-800 justify-between flex-wrap mx-5 lg:mx-40 shadow-xl rounded-md p-10 md:mt-10'>
+        <div className='  flex dark:bg-zinc-800 justify-between flex-wrap mx-5 lg:mx-40 shadow-xl rounded-md p-6 md:p-10 md:mt-10'>
           <div><h1 className='md:text-center text-xl lg:text-3xl md:text-2xl font-bold '>Ongoing WordPress Maintenance</h1>
           <p className='text-xl text-gray-500 mb-3'>Starting at <del>$147</del> <strong className='text-black'>${price}.00/month</strong></p>
           <p>Number of sites</p>
@@ -59,7 +59,7 @@ const [value, setValue] = useState(1)
           <button className='primary-color p-2 px-5 text-white rounded-md'>Login to proceed</button>
           </div>
         </div>
-        <div className='flex flex-wrap mx-10 mt-10 gap-10 lg:mx-40'>
+        <div className='flex flex-wrap mx-5 md:mx-10 mt-5 md:mt-10 gap-5 md:gap-10 lg:mx-40'>
           <div className='shadow-md lg:w-[45%] dark:bg-zinc-800 w-full p-7 rounded-md'>
             <h1 className='text-2xl font-bold'>Regular Security Audits</h1>
             <p className='text-gray-500'>Identify vulnerabilities to keep your site secure.</p>
@@ -80,16 +80,16 @@ const [value, setValue] = useState(1)
             <h1 className='text-2xl font-bold'>Login Security Enhancements</h1>
             <p className='text-gray-500'>Protect your admin panel with two-factor authentication.</p>
           </div>
-          <div className='shadow-md  lg:w-[45%] p-7 rounded-md'>
+          <div className='shadow-md dark:bg-zinc-800 lg:w-[45%] p-7 rounded-md'>
             <h1 className='text-2xl font-bold'>File Integrity Monitoring
             </h1>
             <p className='text-gray-500'>Track and restore any unauthorized file changes.</p>
           </div>
-          <div className='shadow-md  lg:w-[45%] p-7 rounded-md'>
+          <div className='shadow-md dark:bg-zinc-800  lg:w-[45%] p-7 rounded-md'>
             <h1 className='text-2xl font-bold'>Performance Optimization</h1>
             <p className='text-gray-500'>Improve loading times with security hardening.</p>
           </div>
-          <div className='shadow-md  lg:w-[45%] p-7 rounded-md'>
+          <div className='shadow-md  dark:bg-zinc-800 lg:w-[45%] p-7 rounded-md'>
             <h1 className='text-2xl font-bold'>Firewall Management</h1>
             <p className='text-gray-500'>Prevent brute force attacks with proactive firewall adjustments..</p>
           </div>

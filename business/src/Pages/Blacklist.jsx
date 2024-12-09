@@ -113,9 +113,9 @@ setTotal(total + valueamout)
             <button className="p-2 rounded-md primary-color font-semibold">Book a call</button>
           </div>
         </div>
-        <div className="lg:w-1/2 lg:pt-28 pt-10 pl-20 lg:pl-36 w-full h-full">
+        <div className="lg:w-1/2 lg:pt-28 pt-10   lg:pl-36 w-full h-full">
         <iframe
-  width="400"
+  width="350"
   height="225"
   src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
   title="YouTube video player"
@@ -126,17 +126,17 @@ setTotal(total + valueamout)
 
         </div>
       </div>
-      <div className='shadow-md rounded-md mx-20 md:mx-32 lg:mx-44'>
+      <div className='shadow-md rounded-md mx-10 md:mx-32 lg:mx-44'>
       <h1 className='lg:text-4xl text-3xl mt-10 text-center font-bold'>Blacklist Removal Service</h1>
       <p className='text-center text-gray-500 my-5'>Select the blacklists you want to remove. Each removal costs $25.00.</p>
-      <div className='flex justify-between md:mx-20 mx-14 '>
+      <div className='flex flex-wrap justify-between md:mx-20 mx-5 '>
         <div>
-          <p className='text-3xl font-bold'>Total Price: ${total}.0</p>
+          <p className='md:text-3xl text-xl font-bold'>Total Price: ${total}.0</p>
           <p className='text-gray-500'>The total cost for removing the selected blacklists.</p>
         </div>
-        <button className='px-10  primary-color text-white rounded-md font-bold'>Login to Proceed</button>
+        <button className='px-10 py-1 primary-color mt-2 text-white rounded-md font-bold'>Login to Proceed</button>
       </div>
-      <div className='   flex flex-wrap  p-5 gap-10 mt-5 text-lg '>
+      <div className='   flex flex-wrap  p-5 gap-4 md:gap-10 mt-5 text-lg '>
         {data.map((items)=>(
           <div className='flex w-full rounded-xl lg:w-[48%] py-3 px-4 gap-10 justify-between items-center dark:bg-slate-800 dark:hover:bg-slate-900 bg-neutral-100 hover:bg-neutral-200'>
           <div className='items-center flex gap-3'><input onChange={handleCheck} className='w-5 h-5' type="checkbox" value={items.price} name={items.name} id={items.name} />

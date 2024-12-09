@@ -12,8 +12,8 @@ const Mixed = () => {
       </div>
       <button className='bg-white dark:bg-slate-800 px-7 h-12 text-lg rounded-xl'>Purchase Now</button>
     </div>
-    <div className='flex gap-5 mt-10'>
-      <div className='bg-slate-300 p-6 rounded-xl dark:bg-slate-800'>
+    <div className='flex flex-wrap gap-5 mt-10'>
+      <div className='bg-slate-300 md:w-[45%] p-6 rounded-xl dark:bg-slate-800'>
         <h1 className='text-center text-xl font-bold'>What's Included</h1>
         <div className='flex gap-3'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-green-700">
 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
@@ -31,7 +31,7 @@ const Mixed = () => {
 <p>Verification of website security and HTTPS status.</p>
 </div>
       </div>
-      <div className='bg-slate-300 p-6 w-1/2 rounded-xl dark:bg-slate-800'>
+      <div className='bg-slate-300 p-6 md:w-1/2  rounded-xl dark:bg-slate-800'>
         <h1 className='text-center text-xl font-bold'>What's Included</h1>
        <p className=' text-center mt-6'>Our experts will ensure that your website is fully secured with HTTPS, eliminating mixed content errors that could compromise your site’s performance and security.</p>
       </div>

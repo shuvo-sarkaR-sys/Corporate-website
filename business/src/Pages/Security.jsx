@@ -45,10 +45,10 @@ const Security = () => {
         </div>
       </div>
       <h1 className='lg:text-5xl text-center text-3xl mt-14 mb-5 font-bold lg:font-extrabold'>Comprehensive WordPress Security</h1>
-      <p className='text-center mx-20 text-xl mb-10 text-gray-500'>Fortify your WordPress site with our advanced security services. <br />Protect your site from malicious attacks, unauthorized access, and potential vulnerabilities.
+      <p className='text-center mx-5 lg:mx-20 text-xl mb-10 text-gray-500'>Fortify your WordPress site with our advanced security services. <br />Protect your site from malicious attacks, unauthorized access, and potential vulnerabilities.
 
 Key Security Features</p>
-      <div className='flex flex-wrap shadow-lg md:mx-28 mx-14  p-10 lg:mx-40 rounded-md justify-center gap-24'>
+      <div className='flex flex-wrap shadow-lg md:mx-28 mx-5  p-10 lg:mx-40 rounded-md justify-center gap-24'>
         <div className=''>
           <h1 className='text-xl font-bold'>Common Issues Indicating Malware</h1>
           <div className='my-4'>

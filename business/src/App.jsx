@@ -24,6 +24,7 @@ import WhiteScreen from './Pages/WhiteScreen';
 import Mixed from './Pages/Mixed'
 import Privacy from './Pages/Privacy';
 import FAQ from './Pages/FAQ';
+import LogIn from './Components/LogIn';
 function App() {
   const [darkMode, setDark] = useState(false);
   const handleClick = ()=>{
@@ -52,6 +53,9 @@ function App() {
     <Route path="fullstack" element={<Fullstack/>}/>
     <Route path="mern" element={<Mern/>} />
     <Route path='frontend' element={<Frontend/>} />
+
+<Route path='login' element={<LogIn/>} />
+
 
     {/* maintenance nav route */}
       <Route path='malware' element={<Malware/>} />

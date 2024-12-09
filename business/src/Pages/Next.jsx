@@ -55,11 +55,11 @@ const Next = () => {
       <form action="submit">
         <div className='flex-col shadow-md p-10 md:mx-14 lg:mx-56'>
         <p className='text-xl font-bold mb-3'>Your Name</p>
-        <input className=' w-full border-2 bg-zinc-800 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your name' type='word' required id="" />
+        <input className=' w-full border-2 dark:bg-zinc-800 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your name' type='word' required id="" />
         <p className='text-xl font-bold mb-3'>Email Address</p>
-          <input className='bg-zinc-800 w-full border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your email' type='email' required id="" />
+          <input className='dark:bg-zinc-800 w-full border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your email' type='email' required id="" />
           <p className='text-xl font-bold mb-3'>Type of Website</p>
-          <select className='font-semibold bg-zinc-800 w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
+          <select className='font-semibold dark:bg-zinc-800 w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
             <option value="select type of website">Select type of website</option>
             <option value="Blog">Blog</option>
              <option value="Portfolio">Portfolio</option>
@@ -67,7 +67,7 @@ const Next = () => {
             <option value="Business">Business</option>
           </select>
           <p className='text-xl font-bold mb-3 mt-10'>Estimated Budget</p>
-          <select className=' font-semibold bg-zinc-800 mb-10 w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
+          <select className=' font-semibold dark:bg-zinc-800 mb-10 w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
             <option value="select type of  website">Select estimated budget</option>
             <option value="200-500">$200 - $500</option>
             <option value="500-1000">$500 - $1000</option>
@@ -77,11 +77,11 @@ const Next = () => {
 
           </select>
           <p className='text-xl font-bold mb-3'>Number of Pages</p>
-          <input className=' w-full border-2 mb-10 bg-zinc-800 rounded-md p-2 hover:border-purple-800' placeholder='Enter number of pages' required type='number' id="" />
+          <input className=' w-full border-2 mb-10 dark:bg-zinc-800 rounded-md p-2 hover:border-purple-800' placeholder='Enter number of pages' required type='number' id="" />
 
 
           <p className='text-xl font-bold mb-3'>Project Timeline</p>
-          <select className=' w-full mb-10 bg-zinc-800 border-2 rounded-md p-2 hover:border-purple-800' required id="">
+          <select className=' w-full mb-10 dark:bg-zinc-800 border-2 rounded-md p-2 hover:border-purple-800' required id="">
             <option value="select type of website">Select project timeline</option>
             <option value="1-2months">1-2 months</option>
             <option value="2-3months">2-4 months</option>
@@ -137,7 +137,7 @@ const Next = () => {
           <br />
           
           <p className='text-xl font-bold mb-3'>Additional Details or Questions</p>
-          <input className='bg-zinc-800 w-full  border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Provide any additional details about your project' type='word' id="" />
+          <input className='dark:bg-zinc-800 w-full  border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Provide any additional details about your project' type='word' id="" />
           <button
             type="submit"
             className="primary-color p-2 w-full text-white rounded-md"
