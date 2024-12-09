@@ -2,7 +2,7 @@ import React from 'react'
 import '../Components/nav.css'
 const Error4= () => {
   return (
-    <div className='dark:text-white lg:mx-72 mx-10'>
+    <div className='dark:text-white lg:mx-72 mx-7'>
       <h1 className='text-center text-4xl font-bold my-5'>Fix 404 Errors</h1>
       <p className='text-centen text-xl text-gray-500 mb-5'>Ensure your website provides a seamless experience by fixing broken links and 404 errors. Our expert team will identify and resolve these issues swiftly.</p>
       <div className='primary-color p-8 flex items-center justify-between rounded-xl'>

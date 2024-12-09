@@ -29,10 +29,10 @@ const Speed = () => {
             <button className="p-2 rounded-md primary-color font-semibold">Book a call</button>
           </div>
         </div>
-        <div className="lg:w-1/3 lg:pt-28 pt-10 pl-20 lg:pl-32 w-full h-full">
+        <div className="lg:w-1/3 lg:pt-28 pt-10  lg:pl-32 w-full h-full">
           <iframe
-            width="400"
-            height="225"
+            width="350"
+            height="220"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
             title="YouTube video player"
             frameborder="0"
@@ -49,48 +49,48 @@ const Speed = () => {
 
       </p>
 
-      <div className='flex flex-wrap shadow-lg md:mx-28 mx-14  p-10 lg:mx-40 rounded-md gap-4'>
+      <div className='flex flex-wrap shadow-lg md:mx-28 mx-10  p-10 lg:mx-40 rounded-md gap-4'>
         <div className='lg:w-[48%] w-full'>
           <h1 className='text-xl font-bold'>Common Issues Indicating Malware</h1>
           <div className='my-4 flex gap-2'>
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3  h-6 p-1 rounded-full"> </div>
             <p>Hardened file permissions for critical WordPress files</p>
           </div>
 
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>Advanced firewall protection against DDoS and brute force attacks</p>
           </div>
 
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>Prevention of user enumeration and unauthorized access</p>
           </div>
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>Form security enhancements with anti-spam measures
             </p>
           </div>
 
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>Secure login with custom URLs and multi-factor authentication
             </p>
           </div>
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>Protection against SQL injection, XSS, and other common exploits
             </p>
           </div>
 
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>
               Automated malware scanning and removal
             </p>
@@ -98,7 +98,7 @@ const Speed = () => {
 
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>
               Real-time monitoring and threat detection
             </p>
@@ -106,7 +106,7 @@ const Speed = () => {
 
           <div className='my-4 flex gap-2'>
 
-            <div className=" primary-color px-3 p-1 rounded-full"> </div>
+            <div className=" primary-color px-3 h-6 p-1 rounded-full"> </div>
             <p>
               Regular updates for plugins, themes, and WordPress core</p>
           </div>

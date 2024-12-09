@@ -31,9 +31,9 @@ const Security = () => {
             <button className="p-2 rounded-md primary-color font-semibold">Book a call</button>
           </div>
         </div>
-        <div className="lg:w-1/3 lg:pt-28 pt-10 pl-20 lg:pl-32 w-full h-full">
+        <div className="lg:w-1/3 lg:pt-28 pt-10   lg:pl-32 w-full h-full">
           <iframe
-            width="400"
+            width="350"
             height="225"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
             title="YouTube video player"

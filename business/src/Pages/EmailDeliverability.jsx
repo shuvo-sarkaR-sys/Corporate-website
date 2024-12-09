@@ -29,9 +29,9 @@ const EmailDeliverability = () => {
             <button className="p-2 rounded-md primary-color font-semibold">Book a call</button>
           </div>
         </div>
-        <div className="lg:w-1/3 lg:pt-28 pt-10 pl-20 lg:pl-32 w-full h-full">
+        <div className="lg:w-1/3 lg:pt-28 pt-10  lg:pl-20 w-full h-full">
           <iframe
-            width="400"
+            width="350"
             height="225"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
             title="YouTube video player"
@@ -44,9 +44,9 @@ const EmailDeliverability = () => {
       </div>
       <div>
         <div>
-          <h1 className='text-5xl text-center font-bold mt-10'>Email Deliverability Solutions
+          <h1 className='Lg:text-5xl text-3xl md:text-3xl text-center font-bold mt-10'>Email Deliverability Solutions
           </h1>
-          <p className='text-xl text-gray-500 text-center mt-5'>Resolve your email deliverability challenges with our expert services. Identify and fix issues that prevent your emails from reaching the inbox</p>
+          <p className='text-xl text-gray-500 text-center mx-5 mt-5'>Resolve your email deliverability challenges with our expert services. Identify and fix issues that prevent your emails from reaching the inbox</p>
         
            <div className='flex flex-wrap mt-14 justify-between  md:mx-20 sm:mx-14 mx-10 lg:mx-40'>
             <div>
@@ -63,8 +63,8 @@ const EmailDeliverability = () => {
             </div>
            </div>
         </div>
-        <div className='flex gap-6 lg:mx-40 md:mx-20 mx-14 flex-wrap'>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+        <div className='flex gap-6 lg:mx-40 md:mx-20 mx-10 mt-5 flex-wrap'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>1</p></div>
             <div>
               <h1 className='font-bold'>Blacklisted IP addresses</h1>
@@ -72,7 +72,7 @@ const EmailDeliverability = () => {
               <p>Our experts will identify this issue and provide targeted solutions to improve your email deliverability..</p>
             </div>
           </div>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>2</p></div>
             <div>
               <h1 className='font-bold'>Spammy content or keywords</h1>
@@ -80,7 +80,7 @@ const EmailDeliverability = () => {
               <p>We’ll help you mitigate this problem to ensure your emails land in the inbox, not the spam folder.</p>
             </div>
           </div>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>3</p></div>
             <div>
               <h1 className='font-bold'>Incorrect DNS settings (SPF, DKIM, DMARC)</h1>
@@ -89,7 +89,7 @@ const EmailDeliverability = () => {
               <p>Our experts will identify this issue and provide targeted solutions to improve your email deliverability.</p>
             </div>
           </div>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>4</p></div>
             <div>
               <h1 className='font-bold'>Poor sender reputation</h1>
@@ -97,7 +97,7 @@ const EmailDeliverability = () => {
               <p>We’ll help you mitigate this problem to ensure your emails land in the inbox, not the spam folder.</p>
             </div>
           </div>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>5</p></div>
             <div>
               <h1 className='font-bold'>Lack of email authentication protocols</h1>
@@ -105,7 +105,7 @@ const EmailDeliverability = () => {
               <p>Our experts will identify this issue and provide targeted solutions to improve your email deliverability.</p>
             </div>
           </div>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>6</p></div>
             <div>
               <h1 className='font-bold'>High bounce rates</h1>
@@ -114,7 +114,7 @@ const EmailDeliverability = () => {
               <p>We’ll help you mitigate this problem to ensure your emails land in the inbox, not the spam folder.</p>
             </div>
           </div>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>7</p></div>
             <div>
               <h1 className='font-bold'>Low engagement rates (open/click-through rates)</h1>
@@ -122,7 +122,7 @@ const EmailDeliverability = () => {
               <p>Our experts will identify this issue and provide targeted solutions to improve your email deliverability.</p>
             </div>
           </div>
-          <div className='flex shadow-md p-8 rounded-md gap-5 w-full lg:w-[48%]'>
+          <div className='flex shadow-md lg:p-8 p-4 rounded-md gap-5 w-full lg:w-[48%]'>
             <div><p className='primary-color text-3xl p-1 px-4 text-white text-center items-center rounded-full'>2</p></div>
             <div>
               <h1 className='font-bold'>Email content flagged as suspicious</h1>

@@ -4,8 +4,8 @@ import performance1 from '../assets/performance-before.webp'
 import performance2 from '../assets/performance-after.webp'
 const Next = () => {
   return (
-    <div>
-       <div className=" dark:text-white mt-14 items-center flex justify-between flex-wrap gap-8 md:mx-20 lg:mx-44">
+    <div className='dark:text-white'>
+       <div className=" dark:text-white mt-14 mx-10 items-center flex justify-between flex-wrap gap-8 md:mx-20 lg:mx-44">
         <div className="lg:w-1/2 w-full">
           <h1 className="lg:text-5xl md:text-4xl text-3xl font-extrabold text-start">Headless WordPress & Next.js</h1>
           <p className="text-xl text-gray-500 dark:text-gray-400 my-10">Build Faster, Safer Websites with Next.js and WordPress.</p>
@@ -28,7 +28,7 @@ const Next = () => {
         </div>
       </div>
        
-     <h1 className='mt-14 md:mx-28 lg:mx-60 text-center text-4xl font-bold'>How We Boosted Page Speed by 300% -- See the Stunning Results!</h1>
+     <h1 className='mt-14 md:mx-28 lg:mx-60 text-center text-4xl dark:text-white font-bold'>How We Boosted Page Speed by 300% -- See the Stunning Results!</h1>
      <br />
      <p className='text-gray-500 text-center lg:px-10 md:mx-16 mx-5 text-xl  lg:mx-80 dark:text-gray-400'>Faster load times mean happier users, better engagement, and more conversions. See how we turned a sluggish website into a performance powerhouse, with load times that increase user retention and improve SEO rankings.</p>
 <div className='flex  lg:flex-row flex-col md:flex-col gap-10 text-center mx-10 mt-10 lg:mx-40 text-sm text-black'>
@@ -55,11 +55,11 @@ const Next = () => {
       <form action="submit">
         <div className='flex-col shadow-md p-10 md:mx-14 lg:mx-56'>
         <p className='text-xl font-bold mb-3'>Your Name</p>
-        <input className=' w-full border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your name' type='word' required id="" />
+        <input className=' w-full border-2 bg-zinc-800 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your name' type='word' required id="" />
         <p className='text-xl font-bold mb-3'>Email Address</p>
-          <input className=' w-full border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your email' type='email' required id="" />
+          <input className='bg-zinc-800 w-full border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter your email' type='email' required id="" />
           <p className='text-xl font-bold mb-3'>Type of Website</p>
-          <select className='font-semibold w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
+          <select className='font-semibold bg-zinc-800 w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
             <option value="select type of website">Select type of website</option>
             <option value="Blog">Blog</option>
              <option value="Portfolio">Portfolio</option>
@@ -67,7 +67,7 @@ const Next = () => {
             <option value="Business">Business</option>
           </select>
           <p className='text-xl font-bold mb-3 mt-10'>Estimated Budget</p>
-          <select className=' font-semibold mb-10 w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
+          <select className=' font-semibold bg-zinc-800 mb-10 w-full border-2 rounded-md p-2 hover:border-purple-800' required id="">
             <option value="select type of  website">Select estimated budget</option>
             <option value="200-500">$200 - $500</option>
             <option value="500-1000">$500 - $1000</option>
@@ -77,11 +77,11 @@ const Next = () => {
 
           </select>
           <p className='text-xl font-bold mb-3'>Number of Pages</p>
-          <input className=' w-full border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Enter number of pages' required type='number' id="" />
+          <input className=' w-full border-2 mb-10 bg-zinc-800 rounded-md p-2 hover:border-purple-800' placeholder='Enter number of pages' required type='number' id="" />
 
 
           <p className='text-xl font-bold mb-3'>Project Timeline</p>
-          <select className=' w-full mb-10 border-2 rounded-md p-2 hover:border-purple-800' required id="">
+          <select className=' w-full mb-10 bg-zinc-800 border-2 rounded-md p-2 hover:border-purple-800' required id="">
             <option value="select type of website">Select project timeline</option>
             <option value="1-2months">1-2 months</option>
             <option value="2-3months">2-4 months</option>
@@ -137,7 +137,7 @@ const Next = () => {
           <br />
           
           <p className='text-xl font-bold mb-3'>Additional Details or Questions</p>
-          <input className=' w-full  border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Provide any additional details about your project' type='word' id="" />
+          <input className='bg-zinc-800 w-full  border-2 mb-10 rounded-md p-2 hover:border-purple-800' placeholder='Provide any additional details about your project' type='word' id="" />
           <button
             type="submit"
             className="primary-color p-2 w-full text-white rounded-md"

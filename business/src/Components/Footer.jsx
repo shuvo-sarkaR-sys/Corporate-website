@@ -236,13 +236,13 @@ const Footer = () => {
       <div className='md:w-1/4 w-full'>
         <h1 className='text-xl font-bold'>Policies</h1>
        
-        <a href="#"  ><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Privacy Policy</p></a>
+        <a href="privacy"  ><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Privacy Policy</p></a>
         
-        <a href="#"><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Refund Policy</p></a>
+        <a href="privacy"><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Refund Policy</p></a>
         
-        <a href="#"><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Term of Service</p></a>
+        <a href="privacy"><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Term of Service</p></a>
      
-        <a href="#"><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Cookie Policy</p></a>
+        <a href="privacy"><p className='my-4  border-b-2 border-black pb-3 text-sm font-semibold'>Cookie Policy</p></a>
    
         <br />
       

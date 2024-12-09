@@ -40,7 +40,7 @@ const Navbar = ({darkMode, handleClick}) => {
         <div>
             <div className='flex h-10 items-center text-white md:px-8 pl-4 lg:px-40 primary-color justify-between'><p>0 Vulnerability, 0 Downtime, 0 Error</p>
                 <div className='lg:flex md:flex hidden gap-5'>
-                    <a href="Privacy"><p>Privacy policy</p></a>
+                    <Link to="Privacy"><p>Privacy policy</p></Link>
                     <a href="faq"><p>FAQ</p></a>
                     <a href="contact"><p>Contact</p></a>
                     <a href="blog"><p>Blog</p></a>

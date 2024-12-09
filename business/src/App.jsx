@@ -22,6 +22,8 @@ import Error3 from './Pages/Error3'
 import Error5 from './Pages/Error5'
 import WhiteScreen from './Pages/WhiteScreen';
 import Mixed from './Pages/Mixed'
+import Privacy from './Pages/Privacy';
+import FAQ from './Pages/FAQ';
 function App() {
   const [darkMode, setDark] = useState(false);
   const handleClick = ()=>{
@@ -66,6 +68,8 @@ function App() {
       <Route path='error3' element={<Error3/>}  />
       <Route path='white screen' element={<WhiteScreen/>}  />
       <Route path='mixed' element={<Mixed/>}  />
+      <Route path='privacy' element={<Privacy/>} />
+      <Route path='faq' element={<FAQ/>} />
 
    </Routes>
    <Footer/>

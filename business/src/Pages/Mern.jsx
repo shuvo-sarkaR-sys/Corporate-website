@@ -9,16 +9,16 @@ const Mern = () => {
       <div className="flex mt-10 dark:text-white md:mx-20 mx-10 flex-wrap lg:mx-40">
         <div className="lg:w-1/2 w-full">
           <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-start">Fullstack App Development with MERN Stack</h1>
-          <p className="text-xl text-gray-500 dark:text-gray-400 my-10">Dynamic, Scalable, and Efficient Web Applications Built to Empower Your Business.</p>
+          <p className="text-xl text-gray-500 dark:text-gray-400 my-4 lg:my-10">Dynamic, Scalable, and Efficient Web Applications Built to Empower Your Business.</p>
           <p>Unlock the power of modern web technologies with our MERN stack development services. We specialize in creating dynamic and scalable fullstack applications using MongoDB, Express.js, React, and Node.js. Whether you need a high-performance e-commerce platform, a robust SaaS solution, or a custom app, we deliver tailored solutions that drive growth and efficiency for your business.</p>
           <div className="gap-5 flex mt-5 text-white">
             <button className="p-2 rounded-md primary-color font-semibold">Build Your Fullstack Solution Today</button>
             <button className="p-2 rounded-md primary-color font-semibold">Book a call</button>
           </div>
         </div>
-        <div className="lg:w-1/2 lg:pt-28 pt-10 pl-20 lg:pl-36 w-full h-full">
+        <div className="lg:w-1/2 lg:pt-28 pt-10   lg:pl-36 w-full h-full">
           <iframe
-            width="380"
+            width="350"
             height="200"
             src="https://www.youtube-nocookie.com/embed/na2iB6nBzIc?controls=0"
             title="YouTube video player"
@@ -28,7 +28,7 @@ const Mern = () => {
           ></iframe>
         </div>
       </div>
-      <div>
+      <div className="mx-5">
         <h1 className="text-center text-3xl mt-10 lg:mt-20 font-bold lg:text-4xl dark:text-white">Key Benefits of MERN stack</h1>
         <br />
         <div className="flex flex-wrap items-center lg:mx-40" >
@@ -42,7 +42,7 @@ const Mern = () => {
         </div>
       </div>
 
-      <div>
+      <div className="mx-5">
         <div className="flex flex-wrap-reverse items-center lg:mx-40" >
           <div className="lg:w-1/2 dark:text-white w-full">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-9 text-sky-600">
