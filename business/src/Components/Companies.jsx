@@ -33,7 +33,7 @@ const [show, setShow] = useState(false)
             key={index}
             src={image}
             alt={`Slide ${index + 1}`}
-            className=" h-full flex-shrink-0"
+            className=" lg:h-[40%] h-[20%] w-[60px] lg:w-[100px] flex-shrink-0"
           />
         ))}
         {images.map((image, index) => (
@@ -41,11 +41,11 @@ const [show, setShow] = useState(false)
             key={`copy-${index}`}
             src={image}
             alt={`Slide Copy ${index + 1}`}
-            className=" h-full flex-shrink-0"
+            className=" lg:h-[40%] h-[20%] w-[60px] lg:w-[100px] flex-shrink-0"
           />
         ))}
       </div>
- <h1 className='text-center font-bold text-3xl md:text-4xl dark:text-white' id='casestudies'>Our Case Studies</h1>
+ <h1 className='text-center mt-10 font-bold text-3xl md:text-4xl dark:text-white' id='casestudies'>Our Case Studies</h1>
  <p className='text-center text-xl dark:text-white my-5'>Learn more about how we helped businesses achive their goals</p>
 {!show ? (<div className='dark:bg-[#111827]   dark:text-white rounded-md shadow-lg flex flex-wrap p-5 md:p-10 md:mx-10 mx-8 lg:mx-40'>
   <div className='relative md:pr-10 lg:w-1/2 w-full md:w-1/2'>

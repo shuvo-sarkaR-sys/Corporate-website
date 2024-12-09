@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import p1 from '../assets/image.webp'
-import p2 from '../assets/logo-light.webp'
+import p1 from '../assets/logo2.png'
+import p2 from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 import './nav.css'
  
@@ -55,8 +55,8 @@ setText3(false)
                 </div>
             </div>
             <div className='  dark:text-white md:mx-10 mx-10 lg:mx-40 font-semibold flex justify-between items-center'>
-               <Link to="/"> <img className='dark:hidden block' src={p2} alt="" />
-                <img className='dark:block hidden' src={p1} alt="" /></Link>
+               <Link to="/"> <img  className='dark:hidden block w-44 my-[-35px]' src={p2} alt="" />
+                <img className='dark:block my-[-35px] hidden w-44' src={p1} alt="" /></Link>
                 <ul className='hidden gap-8   lg:flex items-center'>
                   <div className='group relative'>
                     <li className='flex items-center  gap-1 hover:bg-slate-100 dark:hover:bg-slate-900 cursor-pointer p-1 '><p>Development </p><span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 transform transition-transform duration-300 group-hover:rotate-180 ">
@@ -204,7 +204,7 @@ setText3(false)
  
 <a href="#casestudies"><li>Case studies</li></a>
                 </ul>
-                <div className='flex gap-10'>
+                <div className='flex gap-4 lg:gap-10'>
                 <button onClick={handleClick}>{!darkMode? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-7">
   <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
 </svg>

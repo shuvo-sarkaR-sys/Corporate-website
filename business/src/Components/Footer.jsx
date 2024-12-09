@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './nav.css'
-import p1 from '../assets/image.webp'
+import p1 from '../assets/logo2.png'
 import f11 from '../assets/f11.png'
 import lin from '../assets/linkedin-logo.png'
 import X from '../assets/twitter (3).png'
@@ -29,9 +29,9 @@ const Footer = () => {
     setText3(!text3)
   }
   return (
-    <div className='primary-color flex-wrap gap-5  mt-10 flex px-10 lg:px-36 py-10 text-white'>
+    <div className='primary-color flex-wrap justify-between  mt-10 flex px-10 lg:px-36 py-10 text-white'>
     <div className='md:w-1/4 w-full'>
-        <img src={p1} alt="" />
+        <img className='w-44 my-[-40px]' src={p1} alt="" />
         <p className='mt-2'>Achieving perfection
            with 0 Vulnerability, 0 Downtime, 0 Error.</p>
            <p className='mt-10'><strong>Phone:</strong>+44 7878 798374</p>
@@ -52,10 +52,10 @@ const Footer = () => {
         <h1 className='my-4  border-b-2 border-black pb-3'>Blog</h1>
         
       </div>
-      <div className=' w-full font-semibold md:w-1/4'>
+      <div className=' w-full font-semibold md:w-1/5'>
         <h1 className='text-xl font-bold'>Services</h1>
         <div className='border-b-2 pb-2 border-black font-semibold '>
-       <div className='flex justify-between my-4 text-sm   cursor-pointer' onClick={handleClick}> <h1>Development</h1>
+       <div className='flex justify-between my-3 text-sm   cursor-pointer' onClick={handleClick}> <h1>Development</h1>
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text ? "button-animation" : ""}`}>
   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
 </svg>
@@ -103,7 +103,7 @@ const Footer = () => {
 
 
         <div className='border-b-2 pb-2 border-black font-semibold  '>
-       <div className='flex justify-between my-4 text-sm  cursor-pointer ' onClick={handleClick1}> <h1>Maintenance</h1>
+       <div className='flex justify-between my-3 text-sm  cursor-pointer ' onClick={handleClick1}> <h1>Maintenance</h1>
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text1 ? "button-animation" : ""}`}>
   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
 </svg>
@@ -153,7 +153,7 @@ const Footer = () => {
         </div>        
 
  {/* Troubleshooting start from here */}
-  <div className='border-b-2 border-black pb-2 font-semibold '>
+  <div className='border-b-2 border-black pb-1 font-semibold '>
        <div className='flex justify-between my-4 text-sm cursor-pointer  ' onClick={handleClick2}> <h1>Troubleshooting</h1>
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text2 ? "button-animation" : ""}`}>
   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
@@ -192,7 +192,7 @@ const Footer = () => {
 
 
         {/* marketing start from here    */}
-        <div className='border-b-2 border-black pb-2 font-semibold '>
+        <div className='border-b-2 border-black pb-1 font-semibold '>
        <div className='flex justify-between my-4 text-sm cursor-pointer  ' onClick={handleClick3}> <h1>Marketing</h1>
        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text3 ? "button-animation" : ""}`}>
   <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
