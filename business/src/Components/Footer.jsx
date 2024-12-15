@@ -11,6 +11,7 @@ import bug from '../assets/bug (1).png'
 import rocket from '../assets/rocket (1).png'
 import shield from "../assets/shield.png"
 import error from '../assets/web.png'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   const [text, setText] = useState(false)
   const handleClick=()=>{
