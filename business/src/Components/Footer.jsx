@@ -34,13 +34,13 @@ const Footer = () => {
         <img className='w-44 my-[-40px]' src={p1} alt="" />
         <p className='mt-2'>Achieving perfection
            with 0 Vulnerability, 0 Downtime, 0 Error.</p>
-           <p className='mt-10'><strong>Phone:</strong>+44 7878 798374</p>
-           <p><strong>Email:</strong> support@3zerodigital.com</p>
-           <p><strong>Address:</strong> Suite A 82 James Carter Road, Mildenhall, Bury St. Edmunds, England, United Kingdom, IP28 7DE </p>
+           <p className='mt-10'><strong>Phone:</strong>+44 12345654</p>
+           <p><strong>Email:</strong> support@digitalsolution.com</p>
+           <p><strong>Address:</strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
            <div className='flex gap-5 mt-5'>
-            <a href="https://www.facebook.com/3zerodigital.LLC"><img className='w-8 h-8' src={f11} alt="" /></a>
-           <a href="https://x.com/3ZeroDigital"><img className='w-8 h-8' src={X} alt="" /></a> 
-           <a href="https://www.linkedin.com/company/3zerodigital/"><img className='w-8 h-8' src={lin} alt="" /></a> 
+            <a href="https://www.facebook.com"><img className='w-8 h-8' src={f11} alt="" /></a>
+           <a href="https://x.com"><img className='w-8 h-8' src={X} alt="" /></a> 
+           <a href="https://www.linkedin.com"><img className='w-8 h-8' src={lin} alt="" /></a> 
            </div>
       </div>
       <div className='text-sm font-bold w-full md:w-1/5'>
