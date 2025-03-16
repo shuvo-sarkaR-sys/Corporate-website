@@ -8,7 +8,7 @@ const LogIn = () => {
   return (
     <div className='dark:text-white my-14'>
       { !show ?
-       <div className='border rounded-xl w-[65%] p-4 md:p-10 md:w-1/3 mx-auto'>
+       <div className='border rounded-xl w-[65%] p-4 md:p-10 xl:w-1/3 md:w-1/2 mx-auto'>
       <h1 className='md:text-3xl text-xl font-medium'>Sign in to your account</h1>
       <p className='md:text-sm text-xs'>Enter your email below to login to your account</p>
       <form action="submit">

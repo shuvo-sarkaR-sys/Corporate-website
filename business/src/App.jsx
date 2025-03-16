@@ -25,6 +25,9 @@ import Mixed from './Pages/Mixed'
 import Privacy from './Pages/Privacy';
 import FAQ from './Pages/FAQ';
 import LogIn from './Components/LogIn';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Blog from './Pages/Blog';
 function App() {
   const [darkMode, setDark] = useState(false);
   const handleClick = ()=>{
@@ -74,7 +77,9 @@ function App() {
       <Route path='mixed' element={<Mixed/>}  />
       <Route path='privacy' element={<Privacy/>} />
       <Route path='faq' element={<FAQ/>} />
-
+      <Route path='about' element={<About/>} />
+      <Route path='contact' element={<Contact/>} />
+      <Route path='blog' element={<Blog/>}/>
    </Routes>
    <Footer/>
    </BrowserRouter>

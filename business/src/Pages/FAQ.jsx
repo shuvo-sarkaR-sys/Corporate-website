@@ -72,7 +72,7 @@ const FAQ = () => {
         <div className='lg:mx-64 dark:text-white mx-10 mt-10 '>
             <div onClick={handleClick} className='cursor-pointer border-b-2'>
                 <div className='flex my-4 font-bold text-lg justify-between '>
-                    <p>What makes 3Zero Digital different from other agencies?</p>
+                    <p>What makes Digital solution different from other agencies?</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text ? "button-animation" : ""}`}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
@@ -82,7 +82,7 @@ const FAQ = () => {
             </div>
             <div onClick={handleClick1} className='cursor-pointer border-b-2'>
                 <div className='flex my-4 font-bold text-lg justify-between '>
-                    <p>What makes 3Zero Digital different from other agencies?</p>
+                    <p>What makes Digital solution different from other agencies?</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text1 ? "button-animation" : ""}`}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
@@ -92,17 +92,17 @@ const FAQ = () => {
             </div>
             <div onClick={handleClick2} className='cursor-pointer border-b-2'>
                 <div className='flex text-lg my-4 font-bold justify-between '>
-                    <p>What makes 3Zero Digital different from other agencies?</p>
+                    <p>What makes Digital solution different from other agencies?</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text2 ? "button-animation" : ""}`}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>
 
                 </div>
-                {!text2 ? <></> : <p>At 3Zero Digital, we prioritize achieving perfection with our 3Zero principles: 0 Vulnerability, 0 Downtime, and 0 Error, ensuring robust, secure, and reliable solutions for our clients.</p>}
+                {!text2 ? <></> : <p>At Digital solution, we prioritize achieving perfection with our digital solution principles: 0 Vulnerability, 0 Downtime, and 0 Error, ensuring robust, secure, and reliable solutions for our clients.</p>}
             </div>
             <div onClick={handleClick3} className='cursor-pointer border-b-2'>
                 <div className='flex text-lg my-4 font-bold justify-between '>
-                    <p>How can I get started with 3Zero Digital?</p>
+                    <p>How can I get started with Digital solution?</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`size-4 ${!text3 ? "button-animation" : ""}`}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                     </svg>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
  import {motion} from 'framer-motion';
@@ -18,14 +18,36 @@ import web1 from '../assets/web1.webp'
  import bug from '../assets/web.png'
  import e1 from '../assets/e1.webp'
  import f1 from '../assets/f11.png'
+ import gsap from 'gsap';
+ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 const Service = () => {
-  
+  useEffect(()=>{
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.fromTo(
+      '.text1',
+      {opacity: 0, y: -50},
+      
+      
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        scrollTrigger: {
+          trigger: '.text1',
+          start: "top 80%",
+          end: "top 10%",
+          ease: "Power2.out",
+          scrub: true,
+        }
+      }
+    )
+  }, [])
 
 
   return (
     <div className='mt-14'>
-      <h1 className='md:text-4xl text-3xl text-center font-bold dark:text-white'>Explore Our Services</h1>
-      <p className='text-gray-600 text-xl text-center dark:text-gray-400 mt-4'>Discover how we can help you grow and optimize your online presence.</p>
+      <h1 className='text1 md:text-4xl text-3xl text-center font-bold dark:text-white'>Explore Our Services</h1>
+      <p className='text-gray-600 text1 text-xl text-center dark:text-gray-400 mt-4'>Discover how we can help you grow and optimize your online presence.</p>
       <div className='custom-pagination  flex-wrap  flex justify-center  gap-7 mt-10' >
         <div className='primary-color text-white  p-2 px-5 py-3 rounded-md'>Development</div>
         <div className='primary-color text-white p-2 px-5 rounded-md'>Maintenance</div>

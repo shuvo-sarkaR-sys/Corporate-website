@@ -7,7 +7,7 @@ const Privacy = () => {
       <p className='text-center mt-5'>Last Updated: <strong>November 9, 2024</strong></p>
       <div>
         <h1 className='text-2xl font-medium mt-10 mb-4'>1. Information We Collect</h1>
-        <p>At <strong>3Zero Digital</strong> , we collect the following types of information:</p>
+        <p>At <strong>Digital solution</strong> , we collect the following types of information:</p>
         <br />
         <ul className='list-disc'>
             <li>Personal Information: We collect your name, email address, and billing details when you sign up, contact us, or complete a payment transaction.</li>
@@ -52,9 +52,9 @@ const Privacy = () => {
             <p>We may update this Privacy Policy. Any changes will be reflected with a new "Last Updated" date.</p>
             <h1 className='mt-10 mb-3 text-2xl font-medium'></h1>
             <p>For questions about these Terms:</p>
-            <p><strong>Email:</strong><a href="https:www.support@3zerodigital.com"> support@3zerodigital.com</a></p>
-            <p><strong>Phone:</strong>+44 7878 798374</p>
-            <p><strong>Address:</strong> Suite A 82 James Carter Road, Mildenhall, Bury St.Edmunds, England, United Kingdom, IP28 7DE</p>
+            <p><strong>Email:</strong><a href="https:www.digitalsolution.com"> support@digitalsolution.com</a></p>
+            <p><strong>Phone:</strong>+12345678122</p>
+            <p><strong>Address:</strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, accusantium.</p>
       </div>
     </div>
   )
