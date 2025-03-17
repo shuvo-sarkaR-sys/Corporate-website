@@ -49,6 +49,7 @@ useEffect(()=>{
 
   }
   return (
+    <>
     <div className='primary-color flex-wrap justify-between  mt-10 flex px-10 lg:px-36 py-10 text-white'>
     <div className='md:w-1/4 w-full'>
         <img className='w-44 my-[-40px]' src={p1} alt="" />
@@ -268,7 +269,10 @@ useEffect(()=>{
       
       </div>
       <hr />
+       
     </div>
+    <p className='text-center primary-color text-white'>Copy right digital solution</p>
+    </>
   )
 }
 
